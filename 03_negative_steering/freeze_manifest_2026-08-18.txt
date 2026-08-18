@@ -1,0 +1,31 @@
+Restricted / negative-steering and replication evidence freeze
+Date: 2026-08-18
+
+Run-ID convention: R = restricted condition. R1-R7 are the core restricted runs; R8-R10 are Temporary Chat restricted replications.
+
+Frozen evidence snapshot: evidence_frozen_2026-08-18.md
+SHA-256: 5c8b0b8b90c49a37b7db20cac939fb5c6f10bdadd82bf8d5658babbd332de36f
+
+Original frozen source filename: Part_II_blacklist_evidence_frozen_2026-08-18.md
+Original frozen snapshot SHA-256 is unchanged.
+
+Exact prompt: ../01_prompts/blacklist_prompt_exact.txt
+SHA-256: d69d568c9f1c7e436bae5295b57e8d29db685372a373076236e1b7a6f5f57d08
+
+Frozen run corpus:
+- R1: GPT-4.1-2025-04-14 | Arena AI | n/a | Project context not applicable | R1_GPT-4.1-2025-04-14_Arena.txt | SHA-256 fb42051e02086b4e297fd3f9812368974e11c0a0bf207ba1ce926ad77771b4f8
+- R2: GPT-5 High | Arena AI | High | Project context not applicable | R2_GPT-5-High_Arena.txt | SHA-256 b721c8e333b03754ce86a69e2747beda20615782efc53fc2dd36f5c1c5f8329f
+- R3: GPT-5.1 High | Arena AI | High | Project context not applicable | R3_GPT-5.1-High_Arena.txt | SHA-256 154df6b3ef963fe3e123aa2876fa44aad106aa4879c7cf2832dea9aa7847d9c7
+- R4: GPT-5.2 High | Arena AI | High | Project context not applicable | R4_GPT-5.2-High_Arena.txt | SHA-256 fd18524642671a6f402bc189b855ae055a3a3dd92b7a9ac12a43b6dd781f8e7e
+- R5: GPT-5.6 High | ChatGPT | High | Project chat | R5_GPT-5.6-High_ChatGPT-Project.txt | SHA-256 78883207d653707c8fd3d8465a09ef85ae3c8f213dba689fb73cf0988eef4e44
+- R6: GPT-5.6 Medium | ChatGPT | Medium | Project chat | R6_GPT-5.6-Medium_ChatGPT-Project.txt | SHA-256 4a7f32d0d803639898c8e4bb58aa6703151507ddb5b696f5f1b83a0501c1fa80
+- R7: GPT-5.6 Instant | ChatGPT | Instant | Project chat | R7_GPT-5.6-Instant_ChatGPT-Project.txt | SHA-256 67e60d3604b82720c606f61445b179adfba75930e1510186362a3c8e3d2e7a3f
+- R8: GPT-5.6 Instant | ChatGPT | Instant | Temporary Chat outside project | R8_GPT-5.6-Instant_Temporary-Chat.txt | SHA-256 442e3c0dcf78d027a2623e3bcea1bb001dbde7d6afa0486c3b12fb2d111cf002
+- R9: GPT-5.6 Medium | ChatGPT | Medium | Temporary Chat outside project | R9_GPT-5.6-Medium_Temporary-Chat.txt | SHA-256 cf688d882734448f8730a0294ffcbc51561cd5d1557f82cdaedfff985902c7b7
+- R10: GPT-5.6 High | ChatGPT | High | Temporary Chat outside project | R10_GPT-5.6-High_Temporary-Chat.txt | SHA-256 71245578ac68a7c3b110a9a8b1c66cd6351b112775bb83246a9bd18bdd69f5cc
+
+Extraction / packaging note:
+- R1-R10 raw files were extracted directly from the frozen ledger's 'Verbatim output' blocks.
+- The R-prefix is a submission-facing run-ID convention meaning restricted; it does not alter the frozen evidence snapshot.
+- No model text was regenerated or rewritten.
+- The frozen snapshot itself remains byte-identical; only raw filenames, indexes, manifests, and memo provenance references changed.
